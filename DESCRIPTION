@@ -1,0 +1,15 @@
+Package: BlastCuratoR
+Title: Curation of Taxonomic Annotations from BLAST Results
+Version: 0.0.0.9000
+Authors@R: 
+    person("Valeria", "Flores Almaraz ", role = c("aut", "cre"), email = "valeria.stephany.flores.almaraz@ut.ee"),
+    person("Vladimir", "Mikyrukov", role = c("aut", "cre"), email = "vladimir.mikyrukov@gmail.com")
+Description: When running BLAST against a reference database, each query often returns multiple hits that vary in percent identity, E-value, bitscore, and other metrics. Directly adopting the top hit’s species-level assignment can lead to overconfident or erroneous annotations. `BlastCuratoR` applies a set of rules and confidence thresholds to perform automated curation of the taxonomy annotation results.
+License: MIT + file LICENSE
+URL: https://github.com/Mycology-Microbiology-Center/BlastCuratoR
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 4.4.0)
+Imports: data.table
+Suggests: tinytest
