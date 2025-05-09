@@ -1,6 +1,6 @@
 
 #' @title Determine the lowest level of taxonomic classification
-#' @details This function will find the last non-NA column in the taxonomy table
+#' @details ...
 #' @param x A data.table with columns containing taxonomic information
 #' @param conflicts How to resolve conflicts ("LCA", "first")?
 #' @param tax_cols A character vector of taxonomic ranks to consider
