@@ -13,7 +13,11 @@ apply_thresholds <- function(x, thresholds = thresholds) {
   # Validate inputs
   # ...
 
+  # Apply thresholds, truncate over-optimistic annotations
+  # ...
 
+  # Keep the best (lowest) annotation and resolve conflicts
+  res <- get_lowest_rank(res, conflicts = "LCA", tax_cols = NULL)
 
   return(res)
 }
